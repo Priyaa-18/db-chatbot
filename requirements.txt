@@ -1,0 +1,36 @@
+# Core dependencies
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# Database connectors
+sqlalchemy==2.0.35
+snowflake-sqlalchemy==1.7.1
+databricks-sql-connector==3.5.0
+databricks-sqlalchemy==0.2.0
+
+# LLM and AI
+openai==1.54.4
+anthropic==0.39.0
+
+# Async support
+asyncio
+aiohttp==3.10.10
+
+# Logging and monitoring
+structlog==24.4.0
+python-json-logger==2.0.7
+
+# Utilities
+python-dotenv==1.0.1
+tenacity==9.0.0
+
+# Data processing
+pandas==2.2.3
+pyarrow==18.0.0
+
+# Visualization
+plotly==5.24.1
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
